@@ -1,4 +1,4 @@
-# Embedding Uploaded Data on a Website
+# Altium 365 Embed Viewer
 
 - [Embedding Uploaded Data on a Website](https://www.altium.com/documentation/altium-365/personal-space#!embedding-uploaded-data-on-a-website)
 - [Embed via URL with Altium 365](https://docs.google.com/document/d/1CooHtbmdMCez44K1UdDOZ4InWpR_MrrxITT4Y4chx_I/edit#)
@@ -23,14 +23,14 @@ But when a user posts such a link on one of our partner websites supporting
 `oEmbed`, then a page displays the CAD viewer as embedded content.
 
 - [oEmbed home](https://oembed.com/)
-	- [providers](https://oembed.com/providers.json), one of them is "Altium LLC"
+    - [providers](https://oembed.com/providers.json), one of them is "Altium LLC"
 
 ## Way 2: Embed HTML Snippet
 
 Click `...`, select `Embed`, enable the "Allow embedding this design anywhere on the web", copy the HTML snippet.
 
 ```html
-<iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=43813802-47E4-4E9F-A52C-EAED1BDB57AB&activeView=SCH" width="1280" height="720" style="overflow:hidden;border:none;width:100%;height:720px;" scrolling="no" allowfullscreen="true" onload="window.top.scrollTo(0,0);"></iframe>        
+<iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=43813802-47E4-4E9F-A52C-EAED1BDB57AB&activeView=SCH" width="1280" height="720" style="overflow:hidden;border:none;width:100%;height:720px;" scrolling="no" allowfullscreen="true" onload="window.top.scrollTo(0,0);"></iframe>
 ```
 
 Use the snippet on a web page, e.g. [sample-1/Kame_MB.html](sample-1/Kame_MB.html)
@@ -41,7 +41,7 @@ Use the snippet on a web page, e.g. [sample-1/Kame_MB.html](sample-1/Kame_MB.htm
 
 <p>Embedding A365 viewer:</p>
 
-<iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=43813802-47E4-4E9F-A52C-EAED1BDB57AB&activeView=SCH" width="1280" height="720" style="overflow:hidden;border:none;width:100%;height:720px;" scrolling="no" allowfullscreen="true" onload="window.top.scrollTo(0,0);"></iframe>        
+<iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=43813802-47E4-4E9F-A52C-EAED1BDB57AB&activeView=SCH" width="1280" height="720" style="overflow:hidden;border:none;width:100%;height:720px;" scrolling="no" allowfullscreen="true" onload="window.top.scrollTo(0,0);"></iframe>
 
 </body>
 </html>
