@@ -1,9 +1,7 @@
 # Altium 365 Embed Viewer
 
 - [Embedding Uploaded Data on a Website](https://www.altium.com/documentation/altium-365/personal-space#!embedding-uploaded-data-on-a-website)
-- [Embed via URL with Altium 365](https://docs.google.com/document/d/1CooHtbmdMCez44K1UdDOZ4InWpR_MrrxITT4Y4chx_I/edit#)
 - [Example](https://www.altium.com/viewer?token=akrWFsQWqEa6Qk7RJPmbCyNY)
-
 
 ## Common Step: Upload Files
 
